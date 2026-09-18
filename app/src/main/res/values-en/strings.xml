@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Song Junyi 2024110131</string>
+    <string name="screen_title">Multilingual HelloWorld</string>
+    <string name="greeting">Hello, World!</string>
+    <string name="introduction">This is my first Android application</string>
+    <string name="student_identity">Student ID: 2024110131 · Name: Song Junyi</string>
+    <string name="choose_language">Choose a language</string>
+    <string name="current_language">Current language: English</string>
+    <string name="footer">Pure Kotlin code UI · Android Studio</string>
+    <string name="flag_description">Flag of Japan</string>
+    <string name="app_icon_description">Application icon</string>
+</resources>
+

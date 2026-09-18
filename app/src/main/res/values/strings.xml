@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">宋珺熠2024110131</string>
+    <string name="screen_title">多语言 HelloWorld</string>
+    <string name="greeting">你好，世界！</string>
+    <string name="introduction">这是我的第一个 Android 应用</string>
+    <string name="student_identity">学号：2024110131　姓名：宋珺熠</string>
+    <string name="choose_language">选择语言</string>
+    <string name="current_language">当前语言：简体中文</string>
+    <string name="footer">纯 Kotlin 代码界面 · Android Studio</string>
+    <string name="flag_description">日本国旗</string>
+    <string name="app_icon_description">应用图标</string>
+</resources>
+
