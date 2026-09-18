@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Song Junyi 2024110131</string>
-    <string name="screen_title">Multilingual HelloWorld</string>
     <string name="greeting">Hello, World!</string>
-    <string name="introduction">This is my first Android application</string>
+    <string name="introduction">Intelligent language system connected. Welcome to the future.</string>
     <string name="student_identity">Student ID: 2024110131 · Name: Song Junyi</string>
-    <string name="choose_language">Choose a language</string>
+    <string name="language_hub">Language control center</string>
+    <string name="follow_system">Follow system language</string>
+    <string name="follow_system_description">Clear manual selection and match the system</string>
     <string name="current_language">Current language: English</string>
-    <string name="footer">Pure Kotlin code UI · Android Studio</string>
-    <string name="flag_description">Flag of Japan</string>
+    <string name="icon_switch_hint">The launcher icon changes with the active language</string>
+    <string name="connection_ready">SYSTEM ONLINE</string>
+    <string name="auto_short">AUTO</string>
+    <string name="manual_short">MANUAL</string>
+    <string name="language_chinese">Chinese / China</string>
+    <string name="language_english">English / United States</string>
+    <string name="language_french">French / France</string>
+    <string name="footer">PURE KOTLIN UI · ANDROID STUDIO · 2026</string>
+    <string name="flag_china_description">Flag of China</string>
+    <string name="flag_usa_description">Flag of the United States</string>
+    <string name="flag_france_description">Flag of France</string>
     <string name="app_icon_description">Application icon</string>
+    <string name="system_eyebrow">MULTILINGUAL SYSTEM / 2026</string>
+    <string name="online_status">◉  %1$s</string>
+    <string name="language_status">◈  %1$s</string>
 </resources>
-

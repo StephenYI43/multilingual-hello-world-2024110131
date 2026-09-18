@@ -4,9 +4,11 @@ Android Studio 课程作业，作者：**2024110131 宋珺熠**。
 
 ## 作业功能
 
-- 中文、English、日本語三种语言可在应用内即时切换
-- 第三种语言（日语）使用独立的日本国旗 PNG 图片资源
-- 使用自定义启动图标
+- 中文、English、Français 三种语言可在应用内即时切换
+- 首次启动自动匹配系统语言，也可以手动覆盖并恢复“跟随系统”
+- 中国、美国、法国三面国旗会同时显示在语言控制中心
+- 启动图标会随当前语言切换为中、英、法三个版本
+- 2026 风格深色玻璃拟态、霓虹科技 UI 与轻量动效
 - UI 完全由 Kotlin 代码创建，不含 `res/layout` 布局文件
 - 提供 ADB 安装、启动、查看根目录及模拟点击的脚本与说明
 
@@ -28,14 +30,14 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build.ps1
 ## 项目结构
 
 - `MainActivity.kt`：纯代码 UI 与交互逻辑
-- `values*/strings.xml`：三种语言资源
-- `drawable/flag_japan.png`：第三种语言国旗资源
-- `mipmap-*`：自定义应用图标
+- `values*/strings.xml`：中、英、法三种语言资源
+- `drawable-nodpi/flag_*.png`：中国、美国、法国国旗资源
+- `mipmap-*`：三套可动态切换的自定义应用图标
 - `scripts/adb-demo.ps1`：ADB 演示脚本
 
 ## 本机模拟器说明
 
-已创建 API 35 测试模拟器 `HelloWorld_API35`。如果启动时提示缺少硬件加速，请以管理员身份运行 Android SDK 中的
+已创建带完整可视界面的 API 35 标准模拟器 `HelloWorld_Visible_API35`。如果启动时提示缺少硬件加速，请以管理员身份运行 Android SDK 中的
 `extras/google/Android_Emulator_Hypervisor_Driver/silent_install.bat`，然后重新启动模拟器。
 
-日本国旗图片来自 `https://flagcdn.com/w320/jp.png`。
+三面国旗图片来自 FlagCDN：`cn.png`、`us.png`、`fr.png`。

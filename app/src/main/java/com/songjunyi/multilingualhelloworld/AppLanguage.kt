@@ -8,8 +8,15 @@ enum class AppLanguage(
 ) {
     CHINESE("zh-CN", "中文"),
     ENGLISH("en", "English"),
-    JAPANESE("ja", "日本語");
+    FRENCH("fr", "Français");
 
     fun locale(): Locale = Locale.forLanguageTag(localeTag)
-}
 
+    companion object {
+        fun fromSystemLocale(locale: Locale): AppLanguage = when (locale.language.lowercase()) {
+            "zh" -> CHINESE
+            "fr" -> FRENCH
+            else -> ENGLISH
+        }
+    }
+}

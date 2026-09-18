@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">宋珺熠2024110131</string>
-    <string name="screen_title">多语言 HelloWorld</string>
     <string name="greeting">你好，世界！</string>
-    <string name="introduction">这是我的第一个 Android 应用</string>
+    <string name="introduction">智能语言系统已连接，欢迎进入未来界面</string>
     <string name="student_identity">学号：2024110131　姓名：宋珺熠</string>
-    <string name="choose_language">选择语言</string>
+    <string name="language_hub">语言控制中心</string>
+    <string name="follow_system">跟随系统语言</string>
+    <string name="follow_system_description">清除手动选择，自动匹配系统</string>
     <string name="current_language">当前语言：简体中文</string>
-    <string name="footer">纯 Kotlin 代码界面 · Android Studio</string>
-    <string name="flag_description">日本国旗</string>
+    <string name="icon_switch_hint">桌面图标会根据当前语言自动切换</string>
+    <string name="connection_ready">SYSTEM ONLINE</string>
+    <string name="auto_short">自动</string>
+    <string name="manual_short">手动</string>
+    <string name="language_chinese">简体中文 / 中国</string>
+    <string name="language_english">英语 / 美国</string>
+    <string name="language_french">法语 / 法国</string>
+    <string name="footer">PURE KOTLIN UI · ANDROID STUDIO · 2026</string>
+    <string name="flag_china_description">中国国旗</string>
+    <string name="flag_usa_description">美国国旗</string>
+    <string name="flag_france_description">法国国旗</string>
     <string name="app_icon_description">应用图标</string>
+    <string name="system_eyebrow">MULTILINGUAL SYSTEM / 2026</string>
+    <string name="online_status">◉  %1$s</string>
+    <string name="language_status">◈  %1$s</string>
 </resources>
-

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Song Junyi 2024110131</string>
+    <string name="greeting">Bonjour le monde !</string>
+    <string name="introduction">Système linguistique intelligent connecté. Bienvenue dans le futur.</string>
+    <string name="student_identity">Numéro étudiant : 2024110131 · Nom : Song Junyi</string>
+    <string name="language_hub">Centre de contrôle des langues</string>
+    <string name="follow_system">Suivre la langue du système</string>
+    <string name="follow_system_description">Effacer le choix manuel et suivre le système</string>
+    <string name="current_language">Langue actuelle : français</string>
+    <string name="icon_switch_hint">L’icône de l’application change selon la langue active</string>
+    <string name="connection_ready">SYSTÈME EN LIGNE</string>
+    <string name="auto_short">AUTO</string>
+    <string name="manual_short">MANUEL</string>
+    <string name="language_chinese">Chinois / Chine</string>
+    <string name="language_english">Anglais / États-Unis</string>
+    <string name="language_french">Français / France</string>
+    <string name="footer">INTERFACE KOTLIN PURE · ANDROID STUDIO · 2026</string>
+    <string name="flag_china_description">Drapeau de la Chine</string>
+    <string name="flag_usa_description">Drapeau des États-Unis</string>
+    <string name="flag_france_description">Drapeau de la France</string>
+    <string name="app_icon_description">Icône de l’application</string>
+    <string name="system_eyebrow">SYSTÈME MULTILINGUE / 2026</string>
+    <string name="online_status">◉  %1$s</string>
+    <string name="language_status">◈  %1$s</string>
+</resources>

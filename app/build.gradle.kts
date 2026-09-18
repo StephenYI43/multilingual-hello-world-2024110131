@@ -35,9 +35,14 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
 }
 
 dependencies {
     testImplementation("junit:junit:4.13.2")
 }
-
